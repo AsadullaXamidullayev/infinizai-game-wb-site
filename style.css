@@ -1,0 +1,934 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+header {
+  min-width: 1440px;
+  min-height: 1069px;
+  position: relative;
+  box-sizing: border-box;
+  background: linear-gradient(90deg, #000 55%, #57B8FF 40%);
+}
+header .menu {
+  width: 1320px;
+  height: 62px;
+  margin-left: 60px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  position: absolute;
+  top: 20px;
+  left: 60px;
+}
+header .menu .logo {
+  margin-right: 132.22px;
+  margin-left: -60px;
+}
+header .menu .navbar {
+  width: 715.55px;
+  height: 26px;
+  display: flex;
+  align-items: center;
+  margin-left: 302.22px;
+  margin-left: -60px;
+}
+header .menu .navbar ul {
+  display: flex;
+}
+header .menu .navbar ul li {
+  margin-left: 85px;
+}
+header .menu .navbar ul li a {
+  color: #fff;
+  font-family: "Orbitron", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+}
+header .menu .navbar ul li a:hover {
+  color: #FAC422;
+  transition: 678ms;
+}
+header .menu .button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 52.22px;
+  width: 250px;
+  height: 62px;
+}
+header .menu .button a:nth-child(1) {
+  font-size: 32px;
+  color: #fff;
+  transition: 780ms;
+}
+header .menu .button a:nth-child(1):hover {
+  color: #FAC422;
+}
+header .menu .button a:nth-child(2) {
+  border: 2px solid #fff;
+  width: 178px;
+  height: 62px;
+  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Orbitron", sans-serif;
+  color: #fff;
+  transition: 780ms;
+}
+header .menu .button a:nth-child(2):hover {
+  background-color: #205072;
+  color: #FAC422;
+}
+header .center {
+  width: 1320px;
+  height: 528px;
+  display: flex;
+  position: absolute;
+  position: relative;
+  top: 291px;
+  left: 60px;
+}
+header .center .left {
+  width: 660px;
+  height: 528px;
+  position: relative;
+}
+header .center .left .info {
+  width: 660px;
+  height: 32px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+header .center .left .info h2 {
+  color: #57B8FF;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Orbitron", sans-serif;
+  margin-left: 8px;
+}
+header .center .left h2 {
+  color: #fff;
+  font-family: "Orbitron", sans-serif;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 86px;
+  margin-top: 16px;
+}
+header .center .left p {
+  font-weight: 400;
+  font-size: 16px;
+  font-family: "Orbitron", sans-serif;
+  color: #999999;
+  width: 615px;
+  line-height: 28px;
+  margin-top: 43px;
+}
+header .center .left .botton {
+  width: 660px;
+  height: 70px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-top: 53px;
+}
+header .center .left .botton a:nth-child(1) {
+  width: 203px;
+  height: 70px;
+  background-color: #57B8FF;
+  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Orbitron", sans-serif;
+  color: #fff;
+  transition: 780ms;
+}
+header .center .left .botton a:nth-child(1):hover {
+  border: 2px solid #fff;
+  background-color: transparent;
+}
+header .center .left .botton span {
+  color: #fff;
+  font-family: "Orbitron", sans-serif;
+  margin-left: 40px;
+}
+header .center .right {
+  width: 660px;
+  height: 518px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+header .center .right img {
+  position: absolute;
+  left: -50px;
+}
+header .infoSeti {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  transition: 780ms;
+  position: absolute;
+  top: 760px;
+  right: 12px;
+  cursor: pointer;
+}
+header .infoSeti a img {
+  transition: 780ms;
+}
+header .infoSeti a img:hover {
+  box-shadow: 2px 2px 20px rgb(77, 75, 75);
+}
+header .about {
+  position: absolute;
+  transform: rotate(90deg);
+  margin-left: -510px;
+}
+header .about .list {
+  height: 25px;
+  width: 1069px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .about .list ul {
+  display: flex;
+}
+header .about .list ul li {
+  display: flex;
+  margin-left: 49px;
+}
+header .about .list ul li a {
+  color: #80858F;
+  font-weight: 400;
+  font-size: 11px;
+  font-family: "Orbitron", sans-serif;
+  transition: 0.1s;
+}
+header .about .list ul li a:hover {
+  color: #FAC422;
+}
+
+nav .set {
+  min-width: 1440px;
+  height: 542px;
+  background-color: #FDD04A;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav .set .setTop {
+  width: 1320px;
+  height: 282.42px;
+}
+nav .set .setTop .text {
+  width: 596px;
+  height: 149px;
+  position: relative;
+  margin-left: 362px;
+}
+nav .set .setTop .text h2 {
+  color: #222730;
+  font-size: 48px;
+  font-weight: 400;
+  font-family: "Orbitron", sans-serif;
+  text-align: center;
+  line-height: 58px;
+}
+nav .set .setTop .text img {
+  margin-left: 195px;
+}
+nav .set .setTop .text p {
+  font-size: 16px;
+  font-family: "Orbitron", sans-serif;
+  font-weight: 400;
+  color: #555555;
+  text-align: center;
+  line-height: 26px;
+  margin-top: 26px;
+}
+nav .set .setTop .info {
+  width: 1320px;
+  height: 89.48px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 44px;
+}
+nav .set .setTop .info a {
+  width: 193px;
+  height: 89px;
+  border-radius: 20px;
+  transition: 780ms;
+  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 2px 3px 30px #80858F;
+}
+nav .set .setTop .info a:hover {
+  box-shadow: 2px 2px 25px #333;
+  transition: 780ms;
+  transform: scaleZ(0.5) perspective(100px) translateZ(10px);
+}
+nav .navBottom {
+  min-width: 1440px;
+  height: 1072px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(./img/nav_img/nav_bg_img.png) no-repeat center center/cover;
+}
+nav .navBottom .navCenter {
+  width: 1320px;
+  height: 812px;
+}
+nav .navBottom .navCenter .top {
+  width: 776px;
+  height: 292px;
+  margin-left: 302px;
+}
+nav .navBottom .navCenter .top .emot {
+  width: 776px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav .navBottom .navCenter .top .emot span {
+  color: #57B8FF;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Orbitron", sans-serif;
+  line-height: 16px;
+  margin-left: 8px;
+}
+nav .navBottom .navCenter .top h2 {
+  color: #fff;
+  font-size: 64px;
+  font-weight: 400;
+  font-family: "Orbitron", sans-serif;
+  text-align: center;
+  margin-top: 12px;
+  line-height: 74px;
+}
+nav .navBottom .navCenter .top p {
+  color: #DFDFDF;
+  font-family: "Orbitron", sans-serif;
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 36px;
+}
+nav .navBottom .navCenter .bottom {
+  width: 1204px;
+  height: 456px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 64px;
+  flex-wrap: wrap;
+  margin-left: 60px;
+}
+nav .navBottom .navCenter .bottom .navBox {
+  width: 586px;
+  height: 212px;
+  padding: 35.42px 0 0 80px;
+  background-color: #fff;
+  border-radius: 20px;
+  background: url(./img/nav_img/Rectangle.png) no-repeat center center/cover;
+  position: relative;
+}
+nav .navBottom .navCenter .bottom .navBox:hover {
+  box-shadow: 2px 2px 35px #FDD04A;
+  transition: 0.2s;
+  cursor: pointer;
+}
+nav .navBottom .navCenter .bottom .navBox img {
+  position: absolute;
+  top: 35px;
+  left: 35px;
+}
+nav .navBottom .navCenter .bottom .navBox h2 {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 400;
+  font-family: "Orbitron", sans-serif;
+  line-height: 42px;
+}
+nav .navBottom .navCenter .bottom .navBox p {
+  margin-top: 19px;
+  color: #DFDFDF;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  font-family: "Orbitron", sans-serif;
+  width: 470px;
+}
+
+section .information {
+  min-width: 1440px;
+  height: 807px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+}
+section .information .informationCenter {
+  width: 1322.75px;
+  height: 500px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 202px;
+}
+section .information .informationCenter .informationleft {
+  width: 734.18px;
+  height: 474px;
+}
+section .information .informationCenter .informationleft .emoj {
+  width: 734.18px;
+  height: 32px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+section .information .informationCenter .informationleft .emoj span {
+  color: #57B8FF;
+  font-size: 16px;
+  font-family: "Orbitron", sans-serif;
+  font-weight: 400;
+  line-height: 16px;
+  margin-left: 8.2px;
+}
+section .information .informationCenter .informationleft h2 {
+  color: #fff;
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 74px;
+  font-family: "Orbitron", sans-serif;
+}
+section .information .informationCenter .informationleft p {
+  color: #DFDFDF;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+  margin-top: 38px;
+  font-family: "Orbitron", sans-serif;
+  width: 722.5px;
+}
+section .information .informationCenter .informationleft a {
+  display: block;
+  width: 203.42px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  background-color: #57B8FF;
+  font-family: "Orbitron", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  margin-top: 54px;
+}
+section .information .informationCenter .informationleft a:hover {
+  background-color: transparent;
+  transition: 780ms;
+  border: 2px solid #fff;
+}
+section .information .informationCenter .informationRight {
+  width: 493.02px;
+  height: 550px;
+  border-radius: 70px;
+  background-color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section .information .informationCenter .informationRight iframe {
+  width: 450.01px;
+  height: 500px;
+  border-radius: 70px;
+}
+section .gameInfo {
+  min-width: 1443px;
+  height: 695px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2A313C;
+}
+section .gameInfo .gameCneter {
+  width: 1322.75px;
+  height: 695.19px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+section .gameInfo .gameCneter .gameRight {
+  width: 597.24px;
+  height: 529.42px;
+}
+section .gameInfo .gameCneter .gameRight .emog {
+  width: 594.24px;
+  height: 32px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+section .gameInfo .gameCneter .gameRight .emog span {
+  color: #57B8FF;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Orbitron", sans-serif;
+  line-height: 16;
+  margin-left: 8.2px;
+}
+section .gameInfo .gameCneter .gameRight h2 {
+  color: #fff;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 74px;
+  font-family: "Orbitron", sans-serif;
+}
+section .gameInfo .gameCneter .gameRight p {
+  color: #DFDFDF;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  font-family: "Orbitron", sans-serif;
+  width: 562.17px;
+  margin-top: 38px;
+}
+section .gameInfo .gameCneter .gameRight .gameImg {
+  width: 597.24px;
+  height: 125.42px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 54.3px;
+}
+section .gameInfo .gameCneter .gameRight .gameImg .imgBox {
+  width: 196.41px;
+  height: 125px;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 30.06px;
+  transition: 650ms;
+}
+section .gameInfo .gameCneter .gameRight .gameImg .imgBox:hover {
+  background-color: #3B3D46;
+  border-radius: 20px;
+  transform: scaleZ(1) perspective(100px) translateZ(20px);
+}
+section .gameInfo .gameCneter .gameRight .gameImg .imgBox a img {
+  width: 174.36px;
+  height: 103px;
+}
+section .gameAbout {
+  min-width: 1440px;
+  height: 732px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #222730;
+}
+section .gameAbout .aboutBox1 {
+  width: 500px;
+  height: 732px;
+  background: url(./img/section_img/secton_3.png) no-repeat center center/cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: 680ms;
+}
+section .gameAbout .aboutBox1:hover {
+  box-shadow: 2px 2px 20px #222730;
+  transform: scaleZ(0.3) perspective(100px) translateZ(5px);
+}
+section .gameAbout .aboutBox2 {
+  width: 500px;
+  height: 732px;
+  background: url(./img/section_img/section_1.png) no-repeat center center/cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: 680ms;
+}
+section .gameAbout .aboutBox2:hover {
+  box-shadow: 2px 2px 20px #222730;
+  transform: scaleZ(0.3) perspective(100px) translateZ(5px);
+}
+section .gameAbout .aboutBox3 {
+  width: 500px;
+  height: 732px;
+  background: url(./img/section_img/section_2.png) no-repeat center center/cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: 680ms;
+}
+section .gameAbout .aboutBox3:hover {
+  box-shadow: 2px 2px 20px #222730;
+  transform: scaleZ(0.3) perspective(100px) translateZ(5px);
+}
+section .gameAbout .aboutBox1 h2, section .gameAbout .aboutBox2 h2, section .gameAbout .aboutBox3 h2 {
+  color: #fff;
+  font-size: 48px;
+  font-weight: 400;
+  font-family: "Orbitron", sans-serif;
+  line-height: 58px;
+  margin-top: 30px;
+}
+
+article .pcRoom {
+  background-color: #000;
+  min-width: 1440px;
+  height: 1220px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+article .pcRoom .information {
+  width: 1322.75px;
+  height: 962px;
+}
+article .pcRoom .information .top {
+  width: 1322.75px;
+  height: 196px;
+  position: relative;
+}
+article .pcRoom .information .top .emoj {
+  width: 1322.75px;
+  height: 32px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+article .pcRoom .information .top .emoj span {
+  color: #57B8FF;
+  font-family: "Orbitron", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  margin-left: 8.2px;
+}
+article .pcRoom .information .top h2 {
+  color: #fff;
+  font-size: 64px;
+  font-family: "Orbitron", sans-serif;
+  width: 542.13px;
+  line-height: 74px;
+}
+article .pcRoom .information .top a {
+  color: #fff;
+  display: block;
+  width: 175.36px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #57B8FF;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-family: "Orbitron", sans-serif;
+  font-size: 17px;
+  line-height: 28px;
+  font-weight: 400;
+  transition: 780ms;
+}
+article .pcRoom .information .top a:hover {
+  background-color: transparent;
+  border: 2px solid #fff;
+  text-shadow: 2px 2px 20px #FAC422;
+}
+article .pcRoom .information .bootom {
+  width: 1322.75px;
+  height: 702px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 64px;
+}
+article .pcRoom .information .bootom .left {
+  width: 649.35px;
+  height: 702px;
+  border-radius: 40px;
+  transition: 0.2s;
+  cursor: pointer;
+}
+article .pcRoom .information .bootom .left:hover {
+  box-shadow: 0 0 20px #2A313C;
+}
+article .pcRoom .information .bootom .left span {
+  color: #57B8FF;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  font-family: "Orbitron", sans-serif;
+  margin-top: 40px;
+  margin-left: 10px;
+  display: block;
+}
+article .pcRoom .information .bootom .left h2 {
+  font-size: 36px;
+  line-height: 46px;
+  color: #fff;
+  font-family: "Orbitron", sans-serif;
+  margin-top: 17px;
+  margin-left: 10px;
+}
+article .pcRoom .information .bootom .right {
+  width: 649.35px;
+  height: 682px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+article .pcRoom .information .bootom .right .rightBox {
+  width: 312.65px;
+  height: 321px;
+  border-radius: 20px;
+  transition: 0.2s;
+  cursor: pointer;
+}
+article .pcRoom .information .bootom .right .rightBox:hover {
+  box-shadow: 0px 0px 20px #2A313C;
+}
+article .pcRoom .information .bootom .right .rightBox span {
+  color: #57B8FF;
+  font-size: 16px;
+  line-height: 16px;
+  font-family: "Orbitron", sans-serif;
+  margin-top: 20px;
+  display: block;
+  margin-left: 10px;
+}
+article .pcRoom .information .bootom .right .rightBox h2 {
+  color: #fff;
+  font-size: 23px;
+  line-height: 34px;
+  font-family: "Orbitron", sans-serif;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+article .about {
+  min-width: 1440px;
+  height: 683px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(./img/article_img/article_bg_img.png);
+}
+article .about .infoText {
+  width: 848.76px;
+  height: 423px;
+}
+article .about .infoText h2 {
+  color: #141820;
+  font-size: 72px;
+  font-weight: 400;
+  line-height: 82px;
+  font-family: "Orbitron", sans-serif;
+  text-align: center;
+}
+article .about .infoText img {
+  margin-left: 493.29px;
+}
+article .about .infoText p {
+  color: #555555;
+  text-align: center;
+  font-size: 18px;
+  line-height: 28px;
+  width: 846px;
+  margin: auto;
+  margin-top: 63.39px;
+  font-family: "Orbitron", sans-serif;
+}
+article .about .infoText .registration {
+  width: 848.76px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 45px;
+}
+article .about .infoText .registration input {
+  width: 445.93px;
+  height: 80px;
+  border: none;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: "Orbitron", sans-serif;
+  padding-left: 14px;
+}
+article .about .infoText .registration a {
+  display: block;
+  width: 221.46px;
+  height: 70px;
+  background-color: #57B8FF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Orbitron", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #fff;
+}
+
+footer .footerInfo {
+  min-width: 1440px;
+  height: 507px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #383D45;
+}
+footer .footerInfo .footerContainer {
+  width: 1322.75px;
+  height: 317px;
+}
+footer .footerInfo .footerContainer .footerCenter {
+  width: 1322.75px;
+  height: 202px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .footerInfo .footerContainer .footerCenter .footerLogo {
+  width: 294.61px;
+  height: 202px;
+}
+footer .footerInfo .footerContainer .footerCenter .footerLogo p {
+  color: #999999;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  font-family: "Orbitron", sans-serif;
+  margin-top: 35px;
+}
+footer .footerInfo .footerContainer .footerCenter .footerMenu {
+  width: 479px;
+  height: 202px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 150.31px;
+}
+footer .footerInfo .footerContainer .footerCenter .footerMenu .menuBox {
+  width: 168.35px;
+  height: 202px;
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  align-items: center;
+}
+footer .footerInfo .footerContainer .footerCenter .footerMenu .menuBox h2 {
+  color: white;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 400;
+  font-family: "Orbitron", sans-serif;
+}
+footer .footerInfo .footerContainer .footerCenter .footerMenu .menuBox ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  margin-left: -10px;
+  margin-top: 23.61px;
+}
+footer .footerInfo .footerContainer .footerCenter .footerMenu .menuBox ul li {
+  margin-top: 20px;
+}
+footer .footerInfo .footerContainer .footerCenter .footerMenu .menuBox ul li a {
+  color: #999999;
+  font-size: 15px;
+  font-weight: 37.5px;
+  font-family: "Orbitron", sans-serif;
+  transition: 0.1s;
+  display: block;
+}
+footer .footerInfo .footerContainer .footerCenter .footerMenu .menuBox ul li a:hover {
+  color: #FAC422;
+  transform: scaleZ(0.5) perspective(100px) translateZ(25px);
+}
+footer .footerInfo .footerContainer .footerCenter .footerIcon {
+  width: 240.5px;
+  height: 202px;
+  margin-left: 150.31px;
+}
+footer .footerInfo .footerContainer .footerCenter .footerIcon h2 {
+  color: white;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Orbitron", sans-serif;
+}
+footer .footerInfo .footerContainer .footerCenter .footerIcon .icons {
+  width: 240.5px;
+  height: 48px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 23.61px;
+}
+footer .footerInfo .footerContainer .footerCenter .footerIcon .icons .iconBox {
+  width: 48.1px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #CCCCCC;
+  transition: 500ms;
+  border-radius: 10px;
+  cursor: pointer;
+}
+footer .footerInfo .footerContainer .footerCenter .footerIcon .icons .iconBox:hover {
+  box-shadow: 0 0 20px #FAC422;
+  transform: scaleZ(0.6) perspective(100px) translateZ(10px);
+}
+footer .footerInfo .footerContainer .footerCenter .footerIcon .icons .iconBox .fa-twitter, footer .footerInfo .footerContainer .footerCenter .footerIcon .icons .iconBox .fa-facebook, footer .footerInfo .footerContainer .footerCenter .footerIcon .icons .iconBox .fa-linkedin-in, footer .footerInfo .footerContainer .footerCenter .footerIcon .icons .iconBox .fa-vk {
+  width: 22px;
+  height: 20px;
+  color: #205072;
+}
+footer .footerInfo .footerContainer .after {
+  width: 1322.75px;
+  height: 67px;
+  border-top: 2px solid #686464;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 48.39px;
+}
+footer .footerInfo .footerContainer .after h2 {
+  color: #999999;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Orbitron", sans-serif;
+  cursor: default;
+  margin-top: 48px;
+}/*# sourceMappingURL=style.css.map */
